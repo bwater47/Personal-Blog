@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="blogsheet" href="./assets/css/form.css" />
     <link rel="stylessheet" href="./assets/css/styles.css" />
-    <title>Document</title>
+    <title>Home Blog Posting</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <button id="darkmode"></button>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box1">
+        <h1>My First Blog</h1>
+    </div>
+
+    <div class="box2">
+        <h2>Whats on your mind?</h2>
+        <form>
+            <div class="l1">
+                <label>Username</label>
+            </div>
+            <div>
+                <input type="text" id="un" />
+            </div>
+            <div class="l2">
+                <label>Title</label>
+            </div>
+            <div>
+                <input type="text" id="t1" />
+            </div>
+            <div class="l3">
+                <label>Content</label>
+            </div>
+            <div class="l4">
+                <input type="text" id="c1" />
+            </div>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+
     <script src="./assets/js/form.js"></script>
     <script src="./assets/js/logic.js"></script>
 </body>
+
 </html>

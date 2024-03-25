@@ -28,7 +28,7 @@ N/A
 Contributing is allowed if you're in the U of U Coding Bootcamp. Contact me on on the slack channel for information.
 
 ## Authors and acknowledgment
-Bootcamp Spot. (03/18/2024). https://bootcampspot.com/
+Bootcamp Spot. (03/24/2024). https://bootcampspot.com/
 
 W3Schools Online Web Tutorials. (03/18/2024). https://www.w3schools.com/ 
 
