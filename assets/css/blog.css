@@ -64,5 +64,5 @@ h3 {
 a {
     flex-wrap: wrap;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 0, 0);
 }
