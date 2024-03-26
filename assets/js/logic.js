@@ -1,0 +1,1 @@
+const blogdata = JSON.parse(localStorage.getItem('blogdata'));
