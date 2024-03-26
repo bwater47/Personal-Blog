@@ -1,9 +1,16 @@
-const blogData = (0)
-// const blog = getBlogsFromLocalStorage
+const blogEntry = JSON.parse(localStorage.getItem('blogData'));
 function getBlogsFromLocalStorage() {
-    JSON.parse(localStorage.getItem('blogData'));
+    document.getElementById('title1').textContent = blogEntry.Title;
+    document.getElementById('content1').textContent = blogEntry.Content;
+    document.getElementById('author1').textContent = `Author: ${blogEntry.Author}`;
 }
-console.log(blogData)
+
+getBlogsFromLocalStorage();
+// console.log(blogEntry);
+// const blog = getBlogsFromLocalStorage
+// function getBlogsFromLocalStorage() {
+//     JSON.parse(localStorage.getItem('blogData'));
+// }
 //fetch from local storage from array
 //push to populate the local storage on page load with event listener
 // blogData.getBlogsFromLocalStorage()
