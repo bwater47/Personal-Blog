@@ -1,6 +1,6 @@
-const blogEntry = JSON.parse(localStorage.getItem('blogData'));
+const blogEntries = JSON.parse(localStorage.getItem('blogData'));
 function getBlogsFromLocalStorage() {
-    document.getElementById('title1').textContent = blogEntry.Title;
+    document.getElementById('title1').textContent = blogEntries.Title;
     document.getElementById('content1').textContent = blogEntry.Content;
     document.getElementById('author1').textContent = `Author: ${blogEntry.Author}`;
 }
@@ -14,3 +14,7 @@ getBlogsFromLocalStorage();
 //fetch from local storage from array
 //push to populate the local storage on page load with event listener
 // blogData.getBlogsFromLocalStorage()
+
+function saveBlogEntry(blogEntry){
+    console.log('saveBlogEntry')
+}

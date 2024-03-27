@@ -8,8 +8,15 @@ const submitButton = document.querySelector("#submission");
 const username = document.querySelector("#un");
 const title = document.querySelector("#t1");
 const content = document.querySelector("#c1");
+const getData = localStorage.getItem('blogData');
+console.log(getData)
+let blogEntries = []
+if (getData) {
+ blogEntries = JSON.parse(getData)
+}
 submitButton.addEventListener("click", function (event) {
   event.preventDefault();
+
   // console.log(username.value, title.value, content.value, "data");
   if (username.value && title.value && content.value) {
     const blogData = {
@@ -17,7 +24,8 @@ submitButton.addEventListener("click", function (event) {
       Title: title.value.trim(),
       Content: content.value.trim(),
     };
-    localStorage.setItem("blogData", JSON.stringify(blogData));
+    blogEntries.push(blogData)
+    localStorage.setItem("blogData", JSON.stringify(blogEntries));
     renderContent();
   } else {
     alert("Please enter all fields");
