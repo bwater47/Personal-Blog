@@ -16,15 +16,25 @@ function getBlogsFromLocalStorage() {
     document.getElementById('title-4').textContent = blogEntries[3].Title;
     document.getElementById('content-4').textContent = blogEntries[3].Content;
     document.getElementById('author-4').textContent = `Author: ${blogEntries[3].Author}`;
+
+    // for (let i = 0; i < 4; i++) {
+    //     // const elements = blogEntries[i];
+    //     let titleEl=`title-${[i]}`;
+    //     // console.log(titleEl);
+    //     document.getElementById(`title-${[i+1]}`).textContent = blogEntries[i].Title;
+    //     document.getElementById(`content-${[i+1]}`).textContent = blogEntries[i].Content;
+    //     document.getElementById(`author-${[i+1]}`).textContent = blogEntries[i].Author;
+    // }
+
 }
 
 for (let i = 0; i < 4; i++) {
-    const elements = blogEntries[i];
-    let titleEl=`title-${[i]}`;
+    // const elements = blogEntries[i];
+    const entry = blogEntries[i];
     // console.log(titleEl);
-    document.getElementById(`title-${[i+1]}`).textContent = blogEntries[i].Title;
-    document.getElementById(`content-${[i+1]}`).textContent = blogEntries[i].Content;
-    document.getElementById(`author-${[i+1]}`).textContent = blogEntries[i].Author;
+    document.getElementById(`title-${i+1}`).textContent = entry.Title;
+    document.getElementById(`content-${i+1}`).textContent = entry.Content;
+    document.getElementById(`author-${i+1}`).textContent = entry.Author;
 }
 // template literal string
 //

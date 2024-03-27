@@ -9,7 +9,6 @@ const username = document.querySelector("#un");
 const title = document.querySelector("#t1");
 const content = document.querySelector("#c1");
 const getData = localStorage.getItem('blogData');
-console.log(getData)
 let blogEntries = []
 if (getData) {
  blogEntries = JSON.parse(getData)
