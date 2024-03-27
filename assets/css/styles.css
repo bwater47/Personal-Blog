@@ -1,10 +1,10 @@
 :root {
-  --background-color: #ffffff;
-  --text-color: #000000;
+  --light: #ffffff;
+  --lighttext: #000000;
+  --dark: #000000;
+  --darktext: #ffffff;
 }
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
