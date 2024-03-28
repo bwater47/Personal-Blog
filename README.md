@@ -8,9 +8,14 @@ A blog website where you can post blogs, and see other peoples blog posts.
 Shields.io
 
 ## Visuals
-Link:
+Link: <a href="https://bwater47.github.io/Week-4-Challenge/" alt="live site link">Live Link</a>
 
-Screenshots:
+Screenshots: <a href="./assets/images/Screen1.png" alt="Screenshot">Screenshot1</a>
+<a href="./assets/images/Screen2.png" alt="Screenshot">Screenshot2</a>
+<a href="./assets/images/Screen3.png" alt="Screenshot">Screenshot3</a>
+<a href="./assets/images/Screen4.png" alt="Screenshot">Screenshot4</a>
+<a href="./assets/images/Screen5.png" alt="Screenshot">Screenshot5</a>
+<a href="./assets/images/Screen6.png" alt="Screenshot">Screenshot6</a>
 
 ## Installation
 N/A

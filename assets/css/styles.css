@@ -25,3 +25,33 @@ body#dark {
   --light: #ffffff;
   --lighttext: #000000;
 } */
+
+/*This is the media screen resolution section for small phone devices*/
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+  .box1 {
+      font-size: 20px;
+  }
+}
+
+/*This is the media screen resolution section for tablet devices*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+      font-size: 16px;
+  }
+  .box1 {
+      font-size: 24px;
+  }
+}
+
+/*This is the media screen resolution section for big tablet, and laptop devices*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+      font-size: 18px;
+  }
+  .box1 {
+      font-size: 28px;
+  }
+}
