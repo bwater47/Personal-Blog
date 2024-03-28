@@ -32,9 +32,9 @@ for (let i = 0; i < 4; i++) {
     // const elements = blogEntries[i];
     const entry = blogEntries[i];
     // console.log(titleEl);
-    document.getElementById(`title-${i+1}`).textContent = entry.Title;
-    document.getElementById(`content-${i+1}`).textContent = entry.Content;
-    document.getElementById(`author-${i+1}`).textContent = entry.Author;
+    document.getElementById(`title-${[i+1]}`).textContent = entry.Title;
+    document.getElementById(`content-${[i+1]}`).textContent = entry.Content;
+    document.getElementById(`author-${[i+1]}`).textContent = entry.Author;
 }
 // template literal string
 //

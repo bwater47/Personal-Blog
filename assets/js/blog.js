@@ -5,6 +5,8 @@ backButton.addEventListener("click", function (event) {
   window.location.href = "index.html";
 });
 
+const toggleBtn = document.querySelector("#darkmode");
+console.log("#darkmode");
 // const toggleLD = document.querySelector('#darkmode');
 // console.log('#darkmode');
 // if () {
