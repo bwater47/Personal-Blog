@@ -5,19 +5,20 @@ backButton.addEventListener("click", function (event) {
   window.location.href = "index.html";
 });
 
-const toggleBtn = document.querySelector("#darkmode", "#lightmode");
-const bodytag = document.querySelector('body');
-let mode = 'light';
-toggleBtn.addEventListener('click', function() {
+const toggleBtn = document.querySelectorAll("#lightmode");
+const body = document.querySelector('body');
+let mode = 'dark';
 
-  if (mode === 'light') {
-    mode = 'dark';
-    body.setattribute('id', 'dark');
-  }
-  else {
-    mode = 'light';
-    body.setAttribute('id', 'light');
-  }
+toggleBtn.forEach(btn => {
+  btn.addEventListener('click', function() {
+    if (mode === 'dark') {
+      mode = 'light';
+      body.setAttribute('id', 'light');
+    } else {
+      mode = 'dark';
+      body.setAttribute('id', 'dark');
+    }
+  });
 });
 // const toggleLD = document.querySelector('#darkmode');
 // console.log('#darkmode');

@@ -7,9 +7,16 @@
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: var(--light);
+  color: var(--lighttext);
 }
 
-#darkmode {
+body#dark {
+  background-color: var(--dark);
+  color: var(--darktext);
+}
+
+/* #darkmode {
   --dark: #000000;
   --darktext: #ffffff;
 }
@@ -17,4 +24,4 @@ body {
 #lightmode {
   --light: #ffffff;
   --lighttext: #000000;
-}
+} */
