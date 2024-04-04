@@ -1,23 +1,24 @@
+/* Theme name style */
 nav {
     display: flex;
     justify-content: space-between;
 }
-
+/* Push the back, and toggle button to the middle */
 nav, ul {
     display: flex;
     align-items: center;
 }
-
+/* Button style to go to the top of the page */
 button {
     margin: 0 10px;
 }
-
+/* Style for the main container */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/* Style for the main container */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +26,7 @@ button {
     margin: 20px;
     padding: 20px;
 }
-
+/* Style for the main container */
 .col {
     flex: 1;
     padding: 100px;
@@ -36,31 +37,31 @@ button {
     text-align: center;
     width: 30%;
 }
-
+/* Style for the main container */
 h2 {
     color: #333;
     font-size: 1.5rem;
 }
-
+/* Style for the main container */
 p {
     color: #666;
 }
-
+/* Style for the main container */
 span {
     color: #999;
     font-style: italic;
 }
-
+/* Style for the footer */
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/* Style for the footer */
 h3 {
     text-align: center;
 }
-
+/* Style for the footer */
 a {
     flex-wrap: wrap;
     text-decoration: none;
