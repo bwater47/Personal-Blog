@@ -8,7 +8,7 @@ A blog website where you can post blogs, and see other peoples blog posts.
 Shields.io
 
 ## Visuals
-Link: <a href="https://bwater47.github.io/Week-4-Challenge/" alt="live site link">Live Link</a>
+Link: <a href="https://bwater47.github.io/Personal-Blog/" alt="live site link">Live Link</a>
 
 Screenshots:
 ![img](./assets/images/Screen1.png)

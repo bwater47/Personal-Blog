@@ -17,16 +17,6 @@ body#dark {
   color: var(--darktext);
 }
 
-/* #darkmode {
-  --dark: #000000;
-  --darktext: #ffffff;
-}
-
-#lightmode {
-  --light: #ffffff;
-  --lighttext: #000000;
-} */
-
 /*This is the media screen resolution section for small phone devices*/
 @media screen and (max-width: 480px) {
   body {
